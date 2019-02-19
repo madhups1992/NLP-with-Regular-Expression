@@ -3,9 +3,9 @@ Madhumitha Pachapalayam Sivasalapathy
 
 Run the code :
 
-"pipenv run python -m pytest" is used to test all the test cases.
-"pipenv run python" is used to run python and from that we can import project0 and can run our modules
-"project0.ran_status" will run the random promises module.
+	"pipenv run python -m pytest" is used to test all the test cases.
+	"pipenv run python" is used to run python and from that we can import project0 and can run our modules
+	"project0.ran_status" will run the random status module.
 
 Please refer the saved files in the following location :
 
@@ -26,9 +26,9 @@ Modules:
 
 Reference:
 
-"http://normanpd.normanok.gov/content/daily-activity"  - from which the website was downloaded.\n
-"https://docs.python.org" - Used the website for python usage.\n
-Used assignment0's test modules to construct testcases. 
+	"http://normanpd.normanok.gov/content/daily-activity" - from which the website was downloaded.
+	"https://docs.python.org" - Used the website for python usage.
+	Used assignment0's test modules to construct testcases. 
 
 
 
