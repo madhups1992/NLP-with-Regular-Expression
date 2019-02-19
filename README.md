@@ -7,12 +7,14 @@ Run the code :
 "pipenv run python" is used to run python and from that we can import project0 and can run our modules
 "project0.ran_status" will run the random promises module.
 
-Please refer the saved files in the following location
+Please refer the saved files in the following location :
+
 	Database is stored in \tmp\Project0\normanpd.db .
 	Pdf is stored in \tmp\Project0\Arrest.pdf  .
 
 Modules:
-Created the following module
+	Created the following module
+
 	download the data : Where pdf is downloaded from the url "http://normanpd.normanok.gov/filebrowser_download/657/2019-02-13%20Daily%20Arrest%20Summary.pdf"
 
 	extract the fields : Tried various functions to extract data from pdf but resulted in poorly formated data. So solved it using "re package". Regular expression makes it easier. 	
@@ -24,8 +26,8 @@ Created the following module
 
 Reference:
 
-"http://normanpd.normanok.gov/content/daily-activity"  - from which the website was downloaded.
-"https://docs.python.org" - Used the website for python usage.
+"http://normanpd.normanok.gov/content/daily-activity"  - from which the website was downloaded.\n
+"https://docs.python.org" - Used the website for python usage.\n
 Used assignment0's test modules to construct testcases. 
 
 
