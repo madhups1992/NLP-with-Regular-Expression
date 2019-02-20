@@ -3,21 +3,25 @@ Madhumitha Pachapalayam Sivasalapathy
 
 Run the code :
 
-	"pipenv run python -m pytest" is used to test all the test cases.
-	"pipenv run python" is used to run python and from that we can import project0 and can run our modules
-	"project0.ran_status()" will run the random status module.
+	"pipenv run python -m pytest" is used to test all the test cases.(read hard coded pdf and does all the tests)
+	"pipenv run python project0/main.py --arrests <url>" is used to run project0 and can run our modules
 
 Please refer the saved files in the following location :
 
-	Database is stored in \tmp\Project0\normanpd.db .
-	Pdf is stored in \tmp\Project0\Arrest.pdf  .
+	Database is stored in \tmp\Project0\*.db .
+	Pdf is stored in \tmp\Project0\Arrest*.pdf  .
 
 Modules:
 	Created the following module
 
-	1.Download the data : Where pdf is downloaded from the url "http://normanpd.normanok.gov/filebrowser_download/657/2019-02-16%20Daily%20Arrest%20Summary.pdf". Also downloaded various dates of the pdf for training. url extraction was similar to the extraction from assignment0 and was very helpful 
+	1.Download the data : Where pdf is downloaded from the url "http://normanpd.normanok.gov/filebrowser_download/657/2019-02-16%20Daily%20Arrest%20Summary.pdf". 
+	Also downloaded various dates of the pdf for training. url extraction was similar to the extraction from assignment0 and was very helpful 
 
-	2.Extract the fields : Tried various functions to extract data from pdf but resulted in poorly formated data. So solved it using "re package". Regular expression makes it easier. It was a hard part. It has various complications like missing values and multiline values. Each row was extracted using ';' and the each field is extrated via regular expression. 3 columns arrestee location, offence and arrestee was hard to seperate. but using regular expression it was easier. 	
+	2.Extract the fields : Tried various functions to extract data from pdf but resulted in poorly formated data.
+	So solved it using "re package". Regular expression makes it easier. It was a hard part. 
+	It has various complications like missing values and multiline values. 
+	Each row was extracted using ';' and the each field is extrated via regular expression. 
+	3 columns arrestee location, offence and arrestee was hard to seperate. but using regular expression it was easier. 	
 
 	3.Create a SQLite database to store the data named normanpd.db. It takes 9 fields.
 	
