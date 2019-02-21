@@ -6,6 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+pytest = "*"
+re = "*"
+sqlite3 = "*"
+pypdf2 = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
